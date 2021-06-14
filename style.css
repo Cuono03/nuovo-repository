@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+body > div{
+  width: 2000px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 60%;
+  margin: auto;
+  padding: 80px 100px;
+  border-radius: 15px;
+}
+
+header > img{
+  width: 28%;
+}
+
+header{
+  color: #32cd32;
+  text-align: center;
+}
+
+nav > div{
+  background-color: #32cd32;
+  text-align: center;
+  padding: 10px;
+}
+
+main{
+  color: white;
+}
+
+main h2{
+  display: inline-block;
+}
+
+/* caricamenti */
+.upload-orange, .upload-limegreen, .upload-red{
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
+.upload-orange{
+  background-color: orange;
+  color: orange;
+  width: 35%;
+}
+
+.upload-limegreen{
+  background-color: #32cd32;
+  color: #32cd32;
+  width: 60%;
+}
+
+.upload-red{
+  background-color: red;
+  color: red;
+  width: 15%;
+}
